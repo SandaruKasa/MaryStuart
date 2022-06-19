@@ -1,0 +1,11 @@
+[package]
+name = "mary_stuart"
+authors = ["SandaruKasa"]
+version = "1.0.0"
+edition = "2021"
+license = "WTFPL"
+
+[dependencies]
+rand = "0.8"
+rayon = "1.5"
+strum = { version = "0.24", features = ["derive"] }
